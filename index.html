@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Taas Adda</title>
+<meta name="description" content="Call Break, Marriage, Teen Patti, Flash, Kitti, Kachuful, Rummy and Dhumbal on one realistic 3D table. Play offline, or with friends nearby. English, नेपाली, हिन्दी.">
+<meta name="theme-color" content="#0d0a08">
+<link rel="icon" href="img/favicon.png">
+<link rel="apple-touch-icon" href="img/icon-180.png">
+<meta property="og:title" content="Taas Adda">
+<meta property="og:description" content="Eight South Asian card games on one realistic 3D table.">
+<meta property="og:image" content="https://sharma2040.github.io/img/feature.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Figtree:wght@400;500;600;700&family=Mukta:wght@500;700&display=swap">
+<style>
+/* A dim card lounge: dark wood, green felt, gold type. One look, on purpose. */
+:root{--room:#0d0a08;--panel:#1a130e;--ink:#f2e8d4;--muted:#b7a98f;--gold:#dcb565;--felt:#1d5a3c;--line:rgba(242,232,212,.14);
+  --display:'Cormorant Garamond',Georgia,serif;--ui:'Figtree','Mukta',system-ui,-apple-system,'Segoe UI',sans-serif;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(120% 70% at 50% 0,#3b2a1b 0,#17110c 45%,var(--room) 100%) fixed;color:var(--ink);font:16px/1.6 var(--ui)}
+a{color:var(--gold)}a:focus-visible,.btn:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+header.top{display:flex;align-items:center;gap:12px;padding-block:18px}
+header.top img{width:40px;height:40px;border-radius:50%}
+header.top b{font-family:var(--display);font-size:24px}
+header.top nav{margin-left:auto;display:flex;gap:18px;font-size:14px}
+header.top nav a{color:var(--muted);text-decoration:none}header.top nav a:hover{color:var(--ink)}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;padding-block:36px 56px}
+.hero h1{font-family:var(--display);font-size:clamp(48px,8vw,84px);line-height:.95;margin:0 0 14px;text-wrap:balance;
+  background:linear-gradient(180deg,#f7e2a6 10%,#c99a46 60%,#8f6a2a);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero .dev{font-family:'Mukta',sans-serif;color:var(--gold);font-size:20px;margin:0 0 10px}
+.hero p.lead{font-size:19px;color:#e4d9c3;max-width:34em;margin:0 0 24px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-flex;flex-direction:column;justify-content:center;padding:12px 20px;border-radius:14px;text-decoration:none;font-weight:700;border:1px solid var(--line);color:var(--ink);background:rgba(28,21,16,.9)}
+.btn small{font-weight:500;font-size:12px;color:var(--muted)}
+.btn.primary{background:linear-gradient(180deg,#e9c779,#b48a3c);color:#1d140a;border-color:#f1d896}.btn.primary small{color:#3d2b12}
+.shots{display:flex;gap:14px;justify-content:center}
+.shots img{width:min(46%,220px);border-radius:22px;border:6px solid #1b1410;box-shadow:0 20px 50px rgba(0,0,0,.6)}
+.shots img:nth-child(2){transform:translateY(28px)}
+h2{font-family:var(--display);font-size:clamp(30px,4.5vw,42px);margin:0 0 18px;text-wrap:balance}
+section{padding-block:40px}
+.games{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.game{padding:16px 18px;border-radius:16px;background:linear-gradient(180deg,rgba(40,30,22,.9),rgba(18,13,10,.95));border:1px solid var(--line)}
+.game b{font-family:var(--display);font-size:24px;display:block;line-height:1.1}
+.game span{color:var(--muted);font-size:14px}
+.feat{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}
+.feat h3{margin:0 0 4px;font-size:17px}.feat p{margin:0;color:var(--muted)}
+.note{padding:16px 18px;border-radius:14px;border:1px solid rgba(232,90,78,.4);background:rgba(200,60,50,.08);color:#f0d6cf;font-size:15px}
+footer{border-top:1px solid var(--line);padding-block:26px 40px;color:var(--muted);font-size:14px;display:flex;gap:18px;flex-wrap:wrap}
+@media (max-width:760px){.hero{grid-template-columns:1fr}.shots img:nth-child(2){transform:none}header.top nav{gap:12px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top"><img src="img/icon-180.png" alt=""><b>Taas Adda</b>
+<nav><a href="#games">Games</a><a href="support.html">Support</a><a href="privacy-policy.html">Privacy</a></nav></header>
+
+<div class="hero">
+  <div>
+    <p class="dev">ताश अड्डा</p>
+    <h1>Every card game from home, on one table</h1>
+    <p class="lead">Call Break, Marriage, Teen Patti and five more, on a realistic 3D table. Play offline against smart computer players, or with friends nearby over Bluetooth. In English, नेपाली and हिन्दी.</p>
+    <div class="cta">
+      <a class="btn primary" href="#download">Get the app<small>Android · Google Play coming soon</small></a>
+      <a class="btn" href="support.html">Help &amp; support<small>Questions and problems</small></a>
+    </div>
+  </div>
+  <div class="shots"><img src="img/2-callbreak.jpg" alt="A Call Break game on the 3D table" width="540" height="1080"><img src="img/4-marriage.jpg" alt="A Marriage hand with sequences grouped" width="540" height="1080"></div>
+</div>
+
+<section id="games">
+  <h2>Eight games, real house rules</h2>
+  <div class="games">
+    <div class="game"><b>Call Break</b><span>Bid your tricks. Spades are trump.</span></div>
+    <div class="game"><b>Marriage</b><span>21 cards, three decks, maal, tiplu, dublee.</span></div>
+    <div class="game"><b>Teen Patti</b><span>Blind or seen, chaal, sideshow, show.</span></div>
+    <div class="game"><b>Flash</b><span>Trial, Double Run, Run, Color, Jute.</span></div>
+    <div class="game"><b>Kitti</b><span>Nine cards, three hands, three shows.</span></div>
+    <div class="game"><b>Kachuful</b><span>Call exactly. Kaali, Chukat, Phuli, Laal.</span></div>
+    <div class="game"><b>Rummy</b><span>13 cards, two decks, a cut joker.</span></div>
+    <div class="game"><b>Dhumbal</b><span>Shed low and call Show.</span></div>
+  </div>
+</section>
+
+<section>
+  <h2>Made for real tables</h2>
+  <div class="feat">
+    <div><h3>Offline, any time</h3><p>Easy, Normal or Hard computer players. No internet needed.</p></div>
+    <div><h3>Friends nearby</h3><p>Phones connect over Bluetooth and Wi-Fi. The host lets each friend in with a matching code.</p></div>
+    <div><h3>Learn as you play</h3><p>A short guide for every game and a hint button that suggests a move.</p></div>
+    <div><h3>Your language</h3><p>English, नेपाली and हिन्दी, switchable any time.</p></div>
+    <div><h3>Levels and rewards</h3><p>Daily bonus, challenges, achievements, and new tables and card backs to unlock.</p></div>
+    <div><h3>SOS for safety</h3><p>Alert friends at your table with your location, or text your emergency contacts.</p></div>
+  </div>
+</section>
+
+<section id="download">
+  <h2>Download</h2>
+  <p>Taas Adda is coming to Google Play. Until then, testers can install the latest test version from the <a href="https://github.com/Sharma2040/taas-adda/releases/latest">releases page</a>.</p>
+  <p class="note">No real money, ever. Chips and coins in Taas Adda are for fun only: they can't be bought or cashed out.</p>
+</section>
+
+<footer><span>© 2026 Taas Adda</span><a href="privacy-policy.html">Privacy policy</a><a href="support.html">Support</a><a href="https://github.com/Sharma2040/taas-adda">Source</a></footer>
+</div>
+</body>
+</html>
